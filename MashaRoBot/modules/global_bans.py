@@ -35,7 +35,7 @@ from MashaRoBot.modules.helper_funcs.chat_status import (
     support_plus,
     user_admin,
 )
-from AsunaRobot.modules.helper_funcs.extraction import (
+from MashaRoBot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )

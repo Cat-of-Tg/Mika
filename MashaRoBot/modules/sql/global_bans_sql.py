@@ -1,6 +1,6 @@
 import threading
 
-from AsunaRobot.modules.sql import BASE, SESSION
+from MashaRoBot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 
 

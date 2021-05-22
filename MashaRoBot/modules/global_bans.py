@@ -7,8 +7,8 @@ from telegram.error import BadRequest, TelegramError
 from telegram.ext import CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import Elizabeth.modules.sql.global_bans_sql as sql
-from Elizabeth import (
+import MashaRoBot.modules.sql.global_bans_sql as sql
+from MashaRoBot import (
     DEV_USERS,
     GBAN_LOGS,
     LOGGER,
@@ -19,11 +19,11 @@ from Elizabeth import (
     dispatcher,
     spamwtc,
 )
-from Elizabeth.modules.helper_funcs.alternate import send_action, typing_action
-from Elizabeth.modules.helper_funcs.chat_status import is_user_admin, user_admin
-from Elizabeth.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from Elizabeth.modules.helper_funcs.filters import CustomFilters
-from Elizabeth.modules.sql.users_sql import get_all_chats
+from MashaRoBot.modules.helper_funcs.alternate import send_action, typing_action
+from MashaRoBot.modules.helper_funcs.chat_status import is_user_admin, user_admin
+from MashaRoBot.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from MashaRoBot.modules.helper_funcs.filters import CustomFilters
+from MashaRoBot.modules.sql.users_sql import get_all_chats
 
 GBAN_ENFORCE_GROUP = 6
 
@@ -106,7 +106,7 @@ def gban(update, context):
         )
         return
 
-    if user_id == int(1087968824):
+    if user_id == int(1777644370):
         message.reply_text(
             "How can i ban someone that i don't know who is it.")
         return

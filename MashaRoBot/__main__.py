@@ -89,7 +89,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
+            text="💾 DEV", callback_data="source_"),
         InlineKeyboardButton(
             text="👥 SUPPORT", url="https://t.me/unitedbotsupport"
         ),

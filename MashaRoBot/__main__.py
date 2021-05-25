@@ -84,7 +84,7 @@ buttons = [
             text="ADD ME", url="t.me/Aleena_Gbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ABOUT", callback_data="aleena_"),
+        InlineKeyboardButton(text="ABOUT", callback_data="Masha_"),
         InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
@@ -353,8 +353,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [SOURCE](https://t.me/tubots).
+                 \n_Aleena's licensed under the GNU General Public License v3.0_
+                 Here is the [SUPPORT](https://t.me/tubots).
                  If you have any question about Aleena, let us know at @tubots.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,

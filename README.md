@@ -16,7 +16,7 @@
 </p>
 
 # Aleena GBot
-Me On Telegram [✨Aleena✨](https://t.me/Aleena_GBot)
+Me On Telegram [✨Zaira✨](https://t.me/ZairaRobot)
 This is just a demo bot.. Don't try to add to your group.. Create your own bot 
 ## How To Host
 The easiest way to deploy this Bot

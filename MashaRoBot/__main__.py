@@ -100,7 +100,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hello am [ZAIRA](https://telegra.ph/file/8ed3bc457f5bfa67732e7.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
+Hello am [ZAIRA](https://telegra.ph/file/98c2580708ce5e0b067f9.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
 
 
 DONATE_STRING = """No need.. I'm rich"""

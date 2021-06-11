@@ -100,7 +100,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*"""
+Hello am *ZAIRA* and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
 
 
 DONATE_STRING = """No need.. I'm rich"""

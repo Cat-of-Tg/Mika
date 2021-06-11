@@ -83,7 +83,7 @@ HELLOW [👋](https://telegra.ph/file/9d49379aac9ae5724e886.jpg). I AM *ZAIRA*
 buttons = [
     [
         InlineKeyboardButton(
-            text="ADD ME", url="t.me/ZairaRobot?startgroup=true"),
+            text="ADD ZAIRA TO YOUR GROUP", url="t.me/ZairaRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ABOUT", callback_data="Masha_"),
@@ -100,7 +100,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hello am *ZAIRA* and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
+Hello am [ZAIRA](https://telegra.ph/file/8ed3bc457f5bfa67732e7.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
 
 
 DONATE_STRING = """No need.. I'm rich"""

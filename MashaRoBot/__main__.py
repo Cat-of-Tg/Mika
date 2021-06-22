@@ -92,9 +92,6 @@ buttons = [
         ),
     ],
     [
-        InlinekeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴", callback_data="source_"), 
-    ],
-    [
         InlineKeyboardButton(text="𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/kidbots"),
         
         InlineKeyboardButton(text="𝙶𝙱𝙰𝙽 𝙻𝙾𝙶𝚂", url="https://t.me/zairalogs"),

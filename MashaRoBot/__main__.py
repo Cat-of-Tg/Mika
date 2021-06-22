@@ -83,7 +83,7 @@ HELLOW [👋](https://telegra.ph/file/9d49379aac9ae5724e886.jpg). I AM *ZAIRA*
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/NAZRIYANAZEEMBOT?startgroup=true"),
+            text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ZairaRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="𝙰𝙱𝙾𝚄𝚃", callback_data="Masha_"),
@@ -91,10 +91,12 @@ buttons = [
             text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
+    [InlinekeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴",callback_data="source_"), 
+    ],
     [
-        InlineKeyboardButton(text="𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/NAZRIYAUPDATES"),
+        InlineKeyboardButton(text="𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/kidbots"),
         
-        InlineKeyboardButton(text="𝙶𝙱𝙰𝙽 𝙻𝙾𝙶𝚂", url="https://t.me/NAZRIYAGBANLOGS"),
+        InlineKeyboardButton(text="𝙶𝙱𝙰𝙽 𝙻𝙾𝙶𝚂", url="https://t.me/zairalogs"),
     ], 
     [
         InlineKeyboardButton(text="𝙷𝙴𝙻𝙿 & 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂", callback_data="help_back"),

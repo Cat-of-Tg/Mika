@@ -91,7 +91,7 @@ buttons = [
             text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
-    [InlinekeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴",callback_data="source_"), 
+    [InlinekeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴", callback_data="source_"), 
     ],
     [
         InlineKeyboardButton(text="𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/kidbots"),

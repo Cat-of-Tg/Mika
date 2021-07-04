@@ -15,7 +15,7 @@
   <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
 </p>
 
-# Aleena GBot
+# ZairaRobot
 Me On Telegram [✨Zaira✨](https://t.me/ZairaRobot)
 This is just a demo bot.. Don't try to add to your group.. Create your own bot 
 ## How To Host

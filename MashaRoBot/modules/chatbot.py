@@ -148,7 +148,6 @@ Chatbot utilizes the CoffeeHouse API and allows ZAIRA to talk and provides a mor
  ❍ /addchat*:* Enables Chatbot mode in the chat.
  ❍ /rmchat*:* Disables Chatbot mode in the chat.
 Reports bugs at @{SUPPORT_CHAT}
-[Powered by CoffeeHouse](https://coffeehouse.intellivoid.net) from @Intellivoid
 """
 
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)

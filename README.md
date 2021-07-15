@@ -12,11 +12,11 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
+  <img src="https://telegra.ph/file/afe13444f94efbcfe45b2.mp4">
 </p>
 
-# ZairaRobot
-Me On Telegram [✨Zaira✨](https://t.me/ZairaRobot)
+# SYLVIE
+Me On Telegram [SYLVIE](https://t.me/MissSylvie_bot)
 This is just a demo bot.. Don't try to add to your group.. Create your own bot 
 ## How To Host
 The easiest way to deploy this Bot

@@ -76,37 +76,37 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-HELLOW [👋](https://telegra.ph/file/9d49379aac9ae5724e886.jpg). I AM *ZAIRA*
+HELLO [👋](https://telegra.ph/file/a5d650e91230178a1b5b3.jpg). I AM *SYLVIE*
 `I'm here to help you to make your group managment task easier! TAP` *Commands* `Use buttons given below to know more about me.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ZairaRobot?startgroup=true"),
+            text="𝘈𝘋𝘋 𝘔𝘌 𝘛𝘖 𝘠𝘖𝘜𝘙 𝘎𝘙𝘖𝘜𝘗", url="t.me/MissSylvie_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝙰𝙱𝙾𝚄𝚃", callback_data="Masha_"),
+        InlineKeyboardButton(text="𝘖𝘞𝘕𝘌𝘙", url="https://t.me/ITzMeZeus"),
         InlineKeyboardButton(
-            text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="𝘚𝘜𝘗𝘗𝘖𝘙𝘛", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/kidbots"),
+        InlineKeyboardButton(text="𝘜𝘗𝘋𝘈𝘛𝘌𝘚", url="https://t.me/zeus_bots"),
         
-        InlineKeyboardButton(text="𝙶𝙱𝙰𝙽 𝙻𝙾𝙶𝚂", url="https://t.me/zairalogs"),
+        InlineKeyboardButton(text="𝘎𝘉𝘈𝘕 𝘓𝘖𝘎𝘚", url="https://t.me/Sylvie_logs"),
     ], 
     [
-        InlineKeyboardButton(text="𝙷𝙴𝙻𝙿 & 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂", callback_data="help_back"),
+        InlineKeyboardButton(text="𝘏𝘌𝘓𝘗 & 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hello am [ZAIRA](https://telegra.ph/file/e83f3cd84f703864544f7.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
+Hello am [SYLVIE](https://telegra.ph/file/a5d650e91230178a1b5b3.jpg) and here are my helpful commands let's go through this and if you have any doubts ask at my support group."""
 
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """[Creator](https://t.me/ITzMeZeus)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -351,7 +351,7 @@ def Masha_about_callback(update, context):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Zaira*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Sylvie*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -359,8 +359,8 @@ def Masha_about_callback(update, context):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Zaira's licensed under the GNU General Public License v3.0_
-                 Here is the [SUPPORT](https://t.me/magiclmush).
-                 If you have any question about Zaira, let us know at @magicalmush.""",
+                 Here is the [SUPPORT](https://t.me/noobiezhub).
+                 If you have any question about Me, let us know at @noobiezhub.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -386,8 +386,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Zaira* THIS BOT CURRENTLY A CLOSED SOURCE CONATCT DEV FOR REPO
-                 \nHere is the [DEV](https://t.me/psykd) .""",
+            text=""" Hi..🤗 I'm *SYLVIE* THIS BOT CURRENTLY A CLOSED SOURCE CONATCT DEV FOR REPO
+                 \nHere is the [DEV](https://t.me/ITzMeZeus) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -682,7 +682,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 🤗")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"

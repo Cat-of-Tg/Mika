@@ -141,22 +141,15 @@ def list_chatbot_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 
-__help__ ="""
-「 HELP FOR V-C 」
-
-❍ /play <song name> - play song you requested
-❍ /song <song name> - download songs you want quickly
-❍ /search <query> - search videos on youtube with details
-❍ /video <song name> - download videos you want quickly
-=>> Admins only
-❍ /pause - pause song play
-❍ /resume - resume song play
-❍ /skip - play next song
-❍ /end - stop music play
-❍ /admincache - Refresh admin list
-=>>   Use
-1) Add @MissSylvie_bot in your group to admin with all permission
-2) Add Assistant I'd to your group @Sylvieassistant"""
+__help__ = f"""
+Chatbot utilizes the CoffeeHouse API and allows SYLVIE to talk and provides a more interactive group chat experience.
+*Commands:* 
+*Admins only:*
+ ❍ /addchat*:* Enables Chatbot mode in the chat.
+ ❍ /rmchat*:* Disables Chatbot mode in the chat.
+Reports bugs at @{SUPPORT_CHAT}
+[Powered by CoffeeHouse](https://coffeehouse.intellivoid.net) from @Intellivoid
+"""
 
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)
 REMOVE_CHAT_HANDLER = CommandHandler("rmchat", remove_chat)

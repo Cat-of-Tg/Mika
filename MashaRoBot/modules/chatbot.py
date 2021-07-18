@@ -141,7 +141,7 @@ def list_chatbot_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 
-__help__ = f"""
+__help__ ="""
 「 HELP FOR V-C 」
 
 ❍ /play <song name> - play song you requested
@@ -156,8 +156,7 @@ __help__ = f"""
 ❍ /admincache - Refresh admin list
 =>>   Use
 1) Add @MissSylvie_bot in your group to admin with all permission
-2) Add Assistant I'd to your group @Sylvieassistant
-"""
+2) Add Assistant I'd to your group @Sylvieassistant"""
 
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)
 REMOVE_CHAT_HANDLER = CommandHandler("rmchat", remove_chat)
@@ -176,7 +175,7 @@ dispatcher.add_handler(REMOVE_CHAT_HANDLER)
 dispatcher.add_handler(CHATBOT_HANDLER)
 dispatcher.add_handler(LIST_CB_CHATS_HANDLER)
 
-__mod_name__ = "V-C"
+__mod_name__ = "CHATBOT"
 __command_list__ = ["addchat", "rmchat", "listaichats"]
 __handlers__ = [
     ADD_CHAT_HANDLER,

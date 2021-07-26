@@ -92,7 +92,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="𝘜𝘗𝘋𝘈𝘛𝘌𝘚", url="https://t.me/zeus_bots"),
+        InlineKeyboardButton(text="𝘜𝘗𝘋𝘈𝘛𝘌𝘚", url="https://t.me/zabotz"),
         
         InlineKeyboardButton(text="𝘎𝘉𝘈𝘕 𝘓𝘖𝘎𝘚", url="https://t.me/Sylvie_logs"),
     ], 

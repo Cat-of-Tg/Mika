@@ -102,7 +102,10 @@ Example:
       _OR_
  `/cash 1 usd inr`
 Output: `1.0 USD = 75.505 INR`
-
+*TELEGRAPH MODULE*
+ ❍ /tm :Get Telegraph Link Of Replied Media
+ ❍ /txt :Get Telegraph Link of Replied Text
+ 
 """
 
 ECHO_HANDLER = DisableAbleCommandHandler("echo", echo, filters=Filters.group)

@@ -106,6 +106,11 @@ Output: `1.0 USD = 75.505 INR`
  ❍ /tm :Get Telegraph Link Of Replied Media
  ❍ /txt :Get Telegraph Link of Replied Text
  
+ *NIGHT MODE*
+ ❍ /nightmode on/off
+**Note:** Night Mode chats get Automatically closed at 12pm(IST) 
+and Automatically openned at 6am(IST) To Prevent Night Spams.
+
 """
 
 ECHO_HANDLER = DisableAbleCommandHandler("echo", echo, filters=Filters.group)

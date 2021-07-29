@@ -81,29 +81,32 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ZAIRA TO GROUP ➕️", url="t.me/ZairaRobot?startgroup=true"),
+            text="➕️ ADD SYLVIE TO GROUP ➕️", url="t.me/MissSylvie_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ABOUT", callback_data="masha_"),
         InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
+        InlineKeyboardButton(text="GBAN LOGS", url="https://t.me/Sylvie_logs"),
+    ], 
+    [
         InlineKeyboardButton(
             text="UPDATES", callback_data="source_"),
         InlineKeyboardButton(
-            text="SUPPORT", url="https://t.me/tzkid"
+            text="SUPPORT", url="https://t.me/NoobiezHub"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [ZAIRA](https://telegra.ph/file/33afc4921ffae87bfc2a9.jpg) 
+`ʜɪ.. ɪ'ᴍ` [SYLVIE](https://telegra.ph/file/b9f4d05ca9ba0dbe1ac25.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-MASHA_IMG = "https://telegra.ph/file/33afc4921ffae87bfc2a9.jpg"
+MASHA_IMG = "https://telegra.ph/file/b9f4d05ca9ba0dbe1ac25.jpg"
 
-DONATE_STRING = """[HEY GLAD TO THINK TO DONATE CONTACT ME AT TZKID](https://t.me/TZKID) """
+DONATE_STRING = """[HEY GLAD TO THINK TO DONATE CONTACT ME AT NOOBIEZ HUB](https://t.me/NoobiezHub) """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -348,7 +351,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *ZAIRA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *SYLVIE*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -356,8 +359,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [ZAIRA SUPPORT](https://t.me/tzkid).
-                 If you have any question about Zaira, let us know at @tzkid.""",
+                 Here is the [NOOBIEZ HUB](https://t.me/NoobiezHub).
+                 If you have any question about *SYLVIE*, let us know at NOOBIEZ HUB.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -383,8 +386,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *ZAIRA*
-                 \nHere is My [UPDATES](https://t.me/kidbots) .""",
+            text=""" Hi..🤗 I'm *SYLVIE*
+                 \nHere is My [UPDATES](https://t.me/NoobiezHub) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(

@@ -387,7 +387,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *SYLVIE*
-                 \nHere is My [UPDATES](https://t.me/NoobiezHub) .""",
+                 \nHere is My [UPDATES](https://t.me/Zabotz) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(

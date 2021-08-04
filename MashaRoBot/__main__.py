@@ -92,9 +92,9 @@ buttons = [
     ], 
     [
         InlineKeyboardButton(
-            text="UPDATES", callback_data="source_"),
+            text="SUPPORT", callback_data="source_"),
         InlineKeyboardButton(
-            text="SUPPORT", url="https://t.me/NoobiezHub"
+            text="UPDATES", url="https://t.me/Zabotz"
         ),
     ],
 ]
@@ -387,7 +387,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *SYLVIE*
-                 \nHere is My [UPDATES](https://t.me/Zabotz) .""",
+                 \nHere is My [SUPPORT](https://t.me/NoobiezHub) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(

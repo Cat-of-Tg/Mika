@@ -94,7 +94,7 @@ buttons = [
         InlineKeyboardButton(
             text="SUPPORT", callback_data="source_"),
         InlineKeyboardButton(
-            text="UPDATES", url="https://t.me/Zabotz"
+            text="UPDATES", url="https://t.me/itzmeZeus"
         ),
     ],
 ]
